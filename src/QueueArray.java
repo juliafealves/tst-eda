@@ -1,20 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Fila com Array:
- * Implemente uma fila com capacidade limitada utilizando array.
- *
- * Entrada:
- * Seu programa deve ler da entrada o tamanho da fila e uma série de operações (add, remove, element e print).
- * A leitura de operações deve ser encerrada com a palavra "end".
- *
- * Saída:
- * Seu programa deve imprimir o conteúdo da fila sempre que uma operação print for lida. Se a fila estiver vazia,
- * imprima "empty". Se estiver cheia, imprima "full".
- * Seu programa deve imprimir o elemento inicial da fila quando ler a operação element.
- * Se a fila estiver vazia e for lida a operação remove, imprima "empty".
- * Se a fila estiver cheia e for lida a operação add, imprima "full".
- */
 class QueueArray {
 
     public static void main(String[] args) {
@@ -36,8 +21,6 @@ class QueueArray {
                 } else if (option.contains("element")) {
                     if(queue.getHead() != null){
                         System.out.println(queue.getHead());
-                    } else {
-                        System.out.println();
                     }
                 } else if (option.contains("remove")) {
                     queue.remove();
@@ -83,7 +66,7 @@ class Queue {
         Integer element = null;
 
         if (!this.isEmpty()) {
-            element = this.array[this.head];
+            element = this.array[0];
         }
 
         return element;
