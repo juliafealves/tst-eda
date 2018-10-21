@@ -5,10 +5,12 @@ import java.util.Scanner;
  * Implemente uma pilha com capacidade limitada utilizando array.
  *
  * Entrada:
- * Seu programa deve ler da entrada o tamanho da pilha e uma série de operações (pop, push, peek e print). A leitura de operações deve ser encerrada com a palavra "end".
+ * Seu programa deve ler da entrada o tamanho da pilha e uma série de operações (pop, push, peek e print).
+ * A leitura de operações deve ser encerrada com a palavra "end".
  *
  * Saída:
- * Seu programa deve imprimir o conteúdo da pilha sempre que uma operação print for lida. Se a pilha estiver vazia, imprima "empty".
+ * Seu programa deve imprimir o conteúdo da pilha sempre que uma operação print for lida. Se a pilha estiver vazia,
+ * imprima "empty".
  * Seu programa deve imprimir o elemento no topo da pilha quando ler a operação peek.
  * Se a pilha estiver vazia e for lida a operação pop, imprima "empty".
  * Se a pilha estiver cheia e for lida a operação push, imprima "full".
