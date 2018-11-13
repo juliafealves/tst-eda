@@ -7,9 +7,9 @@
 - [Tabela Hash Chaining](#tabela-hash-chaining)
 - [Tabela Hash Probing](#tabela-hash-probing)
 - [HashSet](#hashset)
-- [Valor mais próximo de N em uma árvore binária de pesquisa](#valor-mais-proximo-de-n-em-uma-arvore-binaria-de-pesquisa)
-- [Mínimo em uma árvore binária de pesquisa](#minimo-em-uma-arvore-binaria-de-pesquisa)
-- [Máximo em uma árvore binária de pesquisa](#maximo-em-uma-arvore-binaria-de-pesquisa)
+- [Valor mais próximo de N em uma árvore binária de pesquisa](#valor-mais-próximo-de-n-em-uma-árvore-binária-de-pesquisa)
+- [Mínimo em uma árvore binária de pesquisa](#mínimo-em-uma-árvore-binária-de-pesquisa)
+- [Máximo em uma árvore binária de pesquisa](#máximo-em-uma-árvore-binária-de-pesquisa)
 
 
 ## Fila com Array
